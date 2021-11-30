@@ -4,7 +4,7 @@ Comandos GIT utilizados:
 	*- DESCARGA DE PROYECTO INICIAL:
 		Para la descarga inicial del proyecto en la carpeta local desde GitHub, creo una carpeta donde
 		previamente a la descarga del proyecto completo, rama (master), he incluido la carpeta /app 
-		junto con el archivo (Model.php), el siguiente paso es realizar un [git init] a carpeta que 
+		junto con el archivo (Model.php), el siguiente paso es realizar un [git init] a la carpeta que 
 		contendrá el proyecto como local, añado con [git add] tanto a la carpeta /app como al archivo
 		(Model.php).
 		
