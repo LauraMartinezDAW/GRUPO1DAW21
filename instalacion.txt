@@ -1,7 +1,7 @@
 Instalación 
 
 Comandos GIT utilizados:
-	*- DESCARGA DE PROYETO INICIAL:
+	*- DESCARGA DE PROYECTO INICIAL:
 		Para la descarga inicial del proyecto en la carpeta local desde GitHub, creo una carpeta donde
 		previamente a la descarga del proyecto completo, rama (master), he incluido la carpeta /app 
 		junto con el archivo (Model.php), el siguiente paso es realizar un [git init] a carpeta que 
@@ -24,7 +24,7 @@ Comandos GIT utilizados:
 		[ git status ]  	Nos comunica las variaciones/cambios pendientes de validar y los 
 					cambios realizados desde el último [ git pull ] realizado.
 
-		[ git commit -am "Commit Modificanciones en el archivo instalacion.txt" ] 
+		[ git commit -am "Commit Modificaciones en el archivo instalacion.txt" ] 
 
 		[ git push origin master ]
 
@@ -62,8 +62,8 @@ Comandos GIT utilizados:
 		[ git remote -v ]		    Comprobamos la conexión
 
 		
-		Por si en algún caso pudiera existir cualquier conflicto o incompatibiliades con la lectura 
-		y/o verificación de los certifidos, o licencias en este caso (SSL), configuramos la 
+		Por si en algún caso pudiera existir cualquier conflicto o incompatibilidades con la lectura 
+		y/o verificación de los certificados, o licencias en este caso (SSL), configuramos la 
 		verificación:
 
 		[ git config --global http.sslVerify false ]
