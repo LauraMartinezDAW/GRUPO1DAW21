@@ -13,7 +13,7 @@
        }
 
 
-       $this->conexion = $mvc_bd_conexion;
+       $this->conexion = $mvc_bd_conexion;  
      } 
 
 

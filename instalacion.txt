@@ -1,0 +1,82 @@
+Instalación 
+
+Comandos GIT utilizados:
+	*- DESCARGA DE PROYETO INICIAL:
+		Para la descarga inicial del proyecto en la carpeta local desde GitHub, creo una carpeta donde
+		previamente a la descarga del proyecto completo, rama (master), he incluido la carpeta /app 
+		junto con el archivo (Model.php), el siguiente paso es realizar un [git init] a carpeta que 
+		contendrá el proyecto como local, añado con [git add] tanto a la carpeta /app como al archivo
+		(Model.php).
+		
+	A continuación procedo a realizar la conexión con el repositorio en Github:
+
+		[ git remote add origin https://<token>@github.com/LauraMartinezDAW/GRUPO1DAW21.git ]
+		
+		Paso 2: Descargar la rama (master) de Github para fusionarla con la local:
+		[ git pull origin master ]
+
+		Paso 3: Modificar el archivo (instalacion.txt), que contiene las instrucciones, comandos y
+		pasos seguidos para la instalación y despliegue del proyecto en CDMon.
+		
+		Paso 4: Confirmar las modificaciones del archivo (instalacion.txt), para ello usamos el 
+		comando siguiente:
+
+		[ git status ]  	Nos comunica las variaciones/cambios pendientes de validar y los 
+					cambios realizados desde el último [ git pull ] realizado.
+
+		[ git commit -am "Commit Modificanciones en el archivo instalacion.txt" ] 
+
+		[ git push origin master ]
+
+		Paso 5:	Confirmamos todos los integrantes los últimos cambios realizados y que cada rama,
+		cada archivo del proyecto está en la última versión o versión final, para pasar a la subida
+		del proyecto al hosting en CDMon.
+
+		Confirmación: Realizo la descarga de la versión final del proyecto a través de los siguientes
+		comandos y pasos:
+
+		[ git pull origin master ]	Descarga la última versión
+		
+		Paso 6: Me conecto por [ SSH ] con mi usuario, asignado para mencionado servicio, con las 
+		siguientes acciones y comandos: 
+
+		[ ssh josejam2@ssh.josejam2.es.mialias.net ] 
+
+		Introduzco usuario y contraseña del usuario habilitado y me situo en la carpeta correspondiente,
+		no antes de comprobar en que situación y/o lugar me encuentro dentro del árbol de directorios
+		del servidor.
+
+		[ pwd ] 	
+		[ cd .. ] | [ ls -l | grep web ]    Vuelvo un directorio atrás y localizo la carpeta /web
+
+		[ mkdir alimentos_G1_2021 ]	    Creo el directorio donde desplegaremos el proyecto.
+
+		[ git init ]			    Creo un repositorio (git) para el seguimiento del proyecto
+						    en la carpeta
+		
+		Acto seguido hay que volcar el proyecto que está en GitHub en la carpeta, para ello usaré
+		la conexión de cliente (git) de CDMon, realizo la conexión con el repositorio de GitHub:
+
+		[ git remote add origin https://github.com/LauraMartinezDAW/GRUPO1DAW21.git ] 
+
+		[ git remote -v ]		    Comprobamos la conexión
+
+		
+		Por si en algún caso pudiera existir cualquier conflicto o incompatibiliades con la lectura 
+		y/o verificación de los certifidos, o licencias en este caso (SSL), configuramos la 
+		verificación:
+
+		[ git config --global http.sslVerify false ]
+
+		
+		[ git pull origin master ]	    Volcamos el proyecto en el servidor en la carpeta /web
+
+		
+	[ URL DOMINIO CDMON ]:	http://josejam2.es.mialias.net/alimentos_G1_2021/web/	
+
+
+
+
+
+
+
