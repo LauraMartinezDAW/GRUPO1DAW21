@@ -1,0 +1,31 @@
+Laura Martínez (Integrante 1)
+Valoraciones:
+
+Me ha parecido una práctica interesante como primera toma de contacto con Git y GitHub y su funcionamiento. También me parece 
+interesante haberla realizado en grupo como "simulacro" de trabajo en equipo que es como se trabaja realmente en las empresas.
+
+
+José Antonio Marín García (Integrante 2)
+Valoraciones:
+
+Git es muy útil y se aprende bastante con su uso, aún que en mí caso particular, he tenido algún que otro 
+roce con la políticas "nuevas" en cuanto a la subida de cambios al los repositorios, creación de tokens,
+fallos en las subidas, vuelta a empezar, recordar que por fuerza hay que sumar el token a cualquier conexión
+nueva que generes, etc, etc.
+
+Se aprende, se sufre, se vuelve a la carga, hay que estrellarse con los problemillas que a veces surguen,
+pero no deja de ser una aplicación práctica, necesaria en muchas ocasiones, ya sea por seguridad, por 
+visualizarse en la red, para gestionar tus proyectos, creo que todas estas cosas son necesarias y se aportan
+algo más un plus y un aprendizaje por supuesto, de eso se trata, de aprender. 
+
+
+José Ruiz de Alba
+Valoraciones:
+Mi valoración con respecto al proyecto es buena debido a que engloba las competencias de esta unidad con el trabajo en equipo 
+y es muy práctico.
+También me ha gustado mi parte del proyecto debido a que me ha resultado muy intuitiva la forma en la que venía explicada 
+y lo útil que es para que el proyecto se lleve a cabo.
+
+
+
+
