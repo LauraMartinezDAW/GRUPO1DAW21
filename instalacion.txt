@@ -35,6 +35,8 @@ Comandos GIT utilizados:
 		Confirmación: Realizo la descarga de la versión final del proyecto a través de los siguientes
 		comandos y pasos:
 
+		[ *** IMPORTANTE:	SECCIÓN PASOS A SEGUIR ]
+
 		[ git pull origin master ]	Descarga la última versión
 		
 		Paso 6: Me conecto por [ SSH ] con mi usuario, asignado para mencionado servicio, con las 
@@ -47,7 +49,7 @@ Comandos GIT utilizados:
 		del servidor.
 
 		[ pwd ] 	
-		[ cd .. ] | [ ls -l | grep web ]    Vuelvo un directorio atrás y localizo la carpeta /web
+		[ cd ../ ] | [ ls -l | grep web ]    Vuelvo un directorio atrás y localizo la carpeta /web
 
 		[ mkdir alimentos_G1_2021 ]	    Creo el directorio donde desplegaremos el proyecto.
 
@@ -57,7 +59,7 @@ Comandos GIT utilizados:
 		Acto seguido hay que volcar el proyecto que está en GitHub en la carpeta, para ello usaré
 		la conexión de cliente (git) de CDMon, realizo la conexión con el repositorio de GitHub:
 
-		[ git remote add origin https://github.com/LauraMartinezDAW/GRUPO1DAW21.git ] 
+		[ git remote add origin https://<token>@github.com/LauraMartinezDAW/GRUPO1DAW21.git ] 
 
 		[ git remote -v ]		    Comprobamos la conexión
 
@@ -72,11 +74,93 @@ Comandos GIT utilizados:
 		[ git pull origin master ]	    Volcamos el proyecto en el servidor en la carpeta /web
 
 		
-	[ URL DOMINIO CDMON ]:	http://josejam2.es.mialias.net/alimentos_G1_2021/web/	
+	[ URL DOMINIO CDMON ]:	http://josejam2.es.mialias.net/alimentos_G1_2021/web/index.php	
 
 
 
+	[ *** IMPORTANTE:	]	PASOS A SEGUIR EN LA SUBIDA Y DESPLIGUE DEL PROYECTO EN CDMON
 
+	[ PASOS A SEGUIR ]
+
+		Colocarse en la carpeta adecuada del proyecto en como local, en este caso, /Alimentos_G1_2021.
+
+		Comprobar conexiones con el repositorio.
+
+			[ git remote -v ]
+
+		Realizar una copia como local de la última versión que se encuentra en el repositorio, es decir,
+		fusionamos el proyecto del repositorio con el nuestro.
+
+			[ git pull origin master ]
+
+		El siguiente paso a seguir es conectarnos a nuestro Hosting en CDMON, a través de SSH.
+
+			[ ssh josejam2@ssh.josejam2.es.mialias.net ]
+
+
+		Comprobamos la carpeta en la que nos encontramos:
+
+			[ pwd ]		/entrada
+
+			[ cd ../ ] 		/   [	raíz	]
+
+			[ cd /web ]		/web 
+
+		En esta última carpeta crearemos el directorio del proyecto, /Alimentos_G1_2021, en este directorio,
+		subiremos el proyecto, aún que hay que realizar distintas operaciones antes de subirlo.
+
+			[ mkdir Alimentos_G1_2021 ]
+
+		Pasamos al seguimiento de la carpeta como repositorio [ git ]:
+
+			[ cd Alimentos_G1_2021 ]
+			
+
+		Creamos el repositorio git:
+
+			[ git init ]
+
+		Creamos la conexión con el repositorio en GitHub:
+
+			[ git remote add origin https://<token>@github.com/LauraMartinezDAW/GRUPO1DAW21.git ]
+
+
+		Comprobamos la  conexión con el repositorio:
+			[ git remote -v ]
+
+
+		Modificamos la Configuración de Git para que no verifique el certificado SSL:
+
+			[ git config --global http.sslVerify false ]
+
+
+		Y ahora pasamos a la bajada completa del proyecto junto con todo el historial y datos que se poseen en el repositorio:
+
+			[ git pull origin master ]
+
+			[ git fetch origin master ]
+
+
+		Comprobamos los archivos descargados:
+
+			[ ls -la ]
+
+		Añadimos el seguimiento tanto a las capertas como a los archivos del proyecto.
+
+			[ git add app ]
+			[ git add web ]
+			[ git instalacion.txt ]
+			[ git valoraciones.txt ]
+
+
+		Comprobamos a traves del Cliente Web de CDMON, la subida de los archivos del proyecto y su descarga.
+
+
+		Posteriormente comprobamos el acceso Front-Office al proyecto vía URL en el Navegador:
+
+		[ URL:  http://josejam2.es.mialias.net/Alimentos_G1_2021/web/index.php ]
+
+	FIN DEL DESPLIGUE	
 
 
 
