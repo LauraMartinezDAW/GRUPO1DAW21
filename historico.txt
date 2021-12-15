@@ -1,0 +1,31 @@
+- 25 Noviembre 2021:
+Laura, la administradora del repositorio, creó el repositorio GRUPO1DAW2021.
+
+Mandó invitaciones a Marín y a José para hacerlos contribuidores del mismo repositorio.
+
+- 29 Noviembre 2021:
+Una vez creado el repositorio Laura subió su parte del proyecto a github:
+haciendo previamente git init a la carpeta alimentos2020, luego git remote add origin https://github.com/LauraMartinezDAW/GRUPO1DAW21,
+git add a su parte que era la parte de vista, luego git pull origin master y por último git push origin master.
+
+Una vez que la parte de Laura ya estaba subida, José hizo git rm a la parte de Laura y la de Marín para quedarse
+sólo con su parte que era la de controlador frontal, hizo el mismo procedimiento que Laura para hacer su parte
+
+- 30 Noviembre 2021:
+José hizo cambios en el config.php según los datos que le dijo Marín.
+
+Marín subió el archivo Model.php y el instalacion.txt al repositorio de github.
+
+- 10 Diciembre 2021:
+Laura sube el archivo valoraciones.txt al repositorio de github.
+
+-14 Diciembre 2021:
+Marín despliega con éxito el proyecto en su cdmon, y hace las modificaciones correspondientes al archivo
+instalacion.txt previamente subido al repositorio de github.
+
+-15 Diciembre 2021:
+Jose sube el archivo histórico.txt recogiendo el trabajo del grupo y poniendo fin a la práctica 3.
+
+Enlace del hosting desplegado es: http://josejam2.es.mialias.net/Alimentos_G1_2021/web/index.php
+Usuario: joseja437
+Contraseña: GjPJfkf5
