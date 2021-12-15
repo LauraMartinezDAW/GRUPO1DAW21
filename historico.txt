@@ -24,7 +24,7 @@ Marín despliega con éxito el proyecto en su cdmon, y hace las modificaciones c
 instalacion.txt previamente subido al repositorio de github.
 
 -15 Diciembre 2021:
-Jose sube el archivo histórico.txt recogiendo el trabajo del grupo y poniendo fin a la práctica 3.
+Jose sube el archivo historico.txt recogiendo el trabajo del grupo y poniendo fin a la práctica 3.
 
 Enlace del hosting desplegado es: http://josejam2.es.mialias.net/Alimentos_G1_2021/web/index.php
 Usuario: joseja437
